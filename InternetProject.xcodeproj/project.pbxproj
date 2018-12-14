@@ -12,6 +12,7 @@
 		F0A9F08F21C1AC3A009C70F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0A9F08E21C1AC3A009C70F4 /* Assets.xcassets */; };
 		F0A9F09221C1AC3A009C70F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0A9F09021C1AC3A009C70F4 /* LaunchScreen.storyboard */; };
 		F0BF9ECB21C43D9700033FE0 /* InternetDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0BF9ECA21C43D9700033FE0 /* InternetDetailViewController.swift */; };
+		F0BF9ECD21C4455A00033FE0 /* InternetMasteryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0BF9ECC21C4455A00033FE0 /* InternetMasteryViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		F0A9F09121C1AC3A009C70F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F0A9F09321C1AC3A009C70F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F0BF9ECA21C43D9700033FE0 /* InternetDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetDetailViewController.swift; sourceTree = "<group>"; };
+		F0BF9ECC21C4455A00033FE0 /* InternetMasteryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetMasteryViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 			isa = PBXGroup;
 			children = (
 				F0BF9ECA21C43D9700033FE0 /* InternetDetailViewController.swift */,
+				F0BF9ECC21C4455A00033FE0 /* InternetMasteryViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -161,6 +164,7 @@
 			files = (
 				F0BF9ECB21C43D9700033FE0 /* InternetDetailViewController.swift in Sources */,
 				F0A9F08821C1AC2A009C70F4 /* AppDelegate.swift in Sources */,
+				F0BF9ECD21C4455A00033FE0 /* InternetMasteryViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
