@@ -9,7 +9,7 @@
 import UIKit
 
 @UIApplicationMain
- class AppDelegate: UIResponder, UIApplicationDelegate
+ class AppDelegate: UIResponder, UIApplicationDelegate, UISplitViewControllerDelegate
 {
 
     var window: UIWindow?
@@ -18,8 +18,8 @@ import UIKit
      func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool
     {
         // Override point for customization after application launch.
-        let splitViewController = window!.rootViewCOntroller as! UISplitViewController
-        let navigationController = splitViewController.viewController[splitViewController.viewControllers.count-1] as! UINavigationController
+        let splitViewController = window!.rootViewController as! UISplitViewController
+        let navigationController = splitViewController.viewControllers[splitViewController.viewControllers.count-1] as! UINavigationController
         navigationController.topViewController!.navigationItem.leftBarButtonItem = splitViewController.displayModeButtonItem
         splitViewController.delegate = self
         return true
@@ -59,7 +59,7 @@ import UIKit
         {
             return false
         }
-        guard let topAsDetailControlle = secondaryAsNavController.topViewController as? InternetDetailViewController
+        guard let topAsDetailController = secondaryAsNavController.topViewController as? InternetDetailViewController
         else
         {
             return false
