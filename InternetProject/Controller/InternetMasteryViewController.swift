@@ -31,7 +31,8 @@ public class InternetMasteryViewController: UITableViewController
         "https://www.twitter.com",
         "https://www.youtube.com",
         "https://canyons.instructure.com",
-        "https://ctec.canyonsdistrict.org/"
+        "https://ctec.canyonsdistrict.org/",
+        "https://www.instagram.com/"
         ]
         
         if let splitView = splitViewController
